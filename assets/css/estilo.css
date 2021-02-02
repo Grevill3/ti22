@@ -1,0 +1,42 @@
+*{margin: 0;
+    padding: 0;}
+
+body{
+    margin: 15px;
+    background-color: rgb(152, 243, 255);
+}
+
+/* seletor de elemntos*/
+h1{
+    text-align: center;
+    color: black;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(202, 202, 202);
+}
+
+/* seletor de classe . */
+.ptodos{
+    color: green;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+#p1{
+    color: blue;
+    font-size: 1.3em;
+}
+
+/* pseudo elemento */
+#p1:hover{
+    background-color: black;
+    color: white;
+}
